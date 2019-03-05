@@ -1,1 +1,26 @@
+2019.3.5
 font
+font-family:设置字体样式 sans-serif/serif/monospace/cursive/fantasy
+font-size:设置字体大小 格式：px/%/em/关键词（xx-small、x-small、samll、medium、x-large、xx-large）
+font-weight:设置字体粗细(bold粗体、normal去除粗体）
+text-decoration:设置字体的特殊样式  none没有线/underline下划线/overline上划线/line-throught中线
+font-style:设置字体风格  斜体italic 倾斜oblique   <em>用来制定结构表示强调文本
+颜色指定的方式：body{
+                       background:red;/*名称*/
+                   }
+               
+               body{
+                     background:rgb(80%,40%,0%);
+                   }
+                
+                body{
+                     background:rgb(204,102,0);/*在0-255中取值*/
+                   }
+               
+               
+               body{
+                   background:#cc6600;/*十六进制*/
+                   }
+                   补充：十六进制是0-f,十分位*16+个位数=十进制数
+                   缩写：#bbcc00=#bc0
+ 比较：<ins>下划线</ins>、<del>删除线</del>                  
